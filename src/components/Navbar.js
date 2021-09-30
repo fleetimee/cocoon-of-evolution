@@ -11,23 +11,23 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto py-8">
         <div className="flex justify-between">
           <div>
-            <a className="flex items-center px-6 space-x-2" href="#">
+            <a className="flex items-center px-6 space-x-2" href="/#">
               <img src="https://i.postimg.cc/Wbmh8SjJ/Capture.png" alt="" />
               <span className=" text-gray-700 font-bold text-3xl">Fudo</span>
             </a>
           </div>
 
           <div className="hidden md:flex items-center space-x-1 md:space-x-2">
-            <a className="text-gray-700 text-sm md:text-xl font-semibold py-2 px-3" href="#">
+            <a className="text-gray-700 text-sm md:text-xl font-semibold py-2 px-3" href="/#">
               Why Fudo?
             </a>
-            <a className="text-gray-700 text-xl font-semibold py-2 px-3" href="#">
+            <a className="text-gray-700 text-xl font-semibold py-2 px-3" href="/#">
               Services
             </a>
-            <a className="text-gray-700 text-xl font-semibold py-2 px-3" href="#">
+            <a className="text-gray-700 text-xl font-semibold py-2 px-3" href="/#">
               Menu
             </a>
-            <a className="text-gray-700 text-xl font-semibold py-2 px-3" href="#">
+            <a className="text-gray-700 text-xl font-semibold py-2 px-3" href="/#">
               Contact
             </a>
           </div>
@@ -68,19 +68,19 @@ const Navbar = () => {
       </div>
 
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} `}>
-        <a className="block py-4 px-6" href="#">
+        <a className="block py-4 px-6" href="/#">
           Why Fudo?
         </a>
-        <a className="block py-4 px-6" href="#">
+        <a className="block py-4 px-6" href="/#">
           Services
         </a>
-        <a className="block py-4 px-6" href="#">
+        <a className="block py-4 px-6" href="/#">
           Menu
         </a>
-        <a className="block py-4 px-6" href="#">
+        <a className="block py-4 px-6" href="/#">
           Contact
         </a>
-        <a className="block py-4 px-6" href="#">
+        <a className="block py-4 px-6" href="/#">
           Login
         </a>
       </div>
