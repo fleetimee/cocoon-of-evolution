@@ -35,7 +35,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center">
             <a
               className="py-3 px-10 text-gray-100 font-semibold text-xl bg-red-500 rounded-full"
-              href="#"
+              href="/#"
             >
               Login
             </a>
